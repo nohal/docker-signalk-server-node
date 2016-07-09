@@ -1,0 +1,8 @@
+#Unprivileged user under which the server will be running
+SIGNALK_USER=signalk
+
+#Top level directory under which the server is installed
+SIGNALK_HOME=/var/signalk-server-node-master
+
+#Configuration file under ${SIGNALK_HOME}/settings/ used while starting the server
+SIGNALK_CONFIG=volare-file-settings.json

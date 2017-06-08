@@ -2,7 +2,7 @@ FROM       alpine:latest
 MAINTAINER Pavel Kalian "https://github.com/nohal"
 
 RUN apk update; \
-  apk add ca-certificates git nodejs-lts wget sudo nodejs-npm
+  apk add ca-certificates git nodejs-lts wget sudo nodejs-npm openssl
 
 RUN npm install -g bower
 
